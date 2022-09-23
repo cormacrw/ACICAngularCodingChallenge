@@ -1,7 +1,9 @@
-<h2>{{title}}</h2>
+<h2>{{ title }}</h2>
 <nav>
   <a routerLink="/dashboard">Search</a>
   <a routerLink="/linesOfBusiness">View All Lines Of Business</a>
+  <!-- top quotes will go here -->
+  <app-linesOfBusiness-popular></app-linesOfBusiness-popular>
 </nav>
 <router-outlet></router-outlet>
 <app-messages></app-messages>
